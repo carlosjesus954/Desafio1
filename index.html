@@ -17,7 +17,7 @@
 <body>
 
   <!-- Rating state start -->
-  <section class="section">
+  <section class="section primarySection">
     <div class="container">
       <img src="images/icon-star.svg" alt="Logo" class="section__img">
       <div class="section__content">
@@ -36,16 +36,16 @@
             <li class="section__li" >4</li>
             <li class="section__li" >5</li>
           </ul>
-          <input type="submit" value="SUBMIT" class="section__submit">
+          <input type="submit" value="SUBMIT" class="section__submit" name="submit">
         </form>
       </div>
     </div>
   </section>
-  <section class="section ">
+  <section class="section secundarySection hidden">
     <div class="container">
       <img src="images/illustration-thank-you.svg" alt="Logo" class="section__img section__img--simple">
       <div class="section__content section__content--center">
-        <p class="section__selected">You selected 4 out of 5</p>
+        <p class="section__selected">You selected <span id="number-change"></span> out of 5</p>
         <h1 class="section__h1">
           Thank you!
         </h1>

@@ -70,6 +70,10 @@ img{
     font-size: 0.8em;
     cursor: pointer;
 }
+.section__li:hover{
+    background-color: hsl(25, 97%, 53%);
+    transition: 0.5s;
+}
 .section__submit{
     background-color: hsl(25, 97%, 53%);
     padding: 1em;
@@ -79,7 +83,11 @@ img{
     width: 100%;
     cursor: pointer;
 }
-
+.section__submit:hover{
+    background-color: hsl(0, 0%, 100%);
+    transition: 0.5s;
+    color: hsl(25, 97%, 53%);
+}
 .section__img--simple{
     display: block;
     background-color: transparent;
@@ -102,3 +110,4 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
+
